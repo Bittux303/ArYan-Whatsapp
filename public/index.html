@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhatsApp Messaging App</title>
+    <title>SarFu Rullex BoY</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
+            background-image: url('https://i.ibb.co/9qQ5ykH/51a576c83b5cbcd6e41f733f2baea419.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
-        header {
-            b* Primary color */
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            margin-bottom: 30px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
         }
         h1 {
             margin: 0 0 15px;
@@ -27,19 +34,19 @@
         h2 {
             margin-bottom: 20px;
         }
-        form {
-            background: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-            margin: 20px auto;
-            max-width: 700px;
-            display: none; /* Hide forms initially */
-            transition: all 0.3s;
+        form {background-image: url('https://i.ibb.co/9qQ5ykH/51a576c83b5cbcd6e41f733f2baea419.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            
         }
         .btn-custom {
-            background-color: #007bff; /* Primary color */
-            color: white;
+            background-color: #white; /* Primary color */
+            color: red;
             text-transform: uppercase;
             border-radius: 25px;
             padding: 10px 20px;
@@ -47,7 +54,7 @@
             transition: background-color 0.3s, box-shadow 0.3s;
         }
         .btn-custom:hover {
-            background-color: #0056b3; /* Darker shade */
+            background-color: yellow; /* Darker shade */
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
         }
         .form-control, .form-control-file {
@@ -57,7 +64,7 @@
             margin-bottom: 15px; /* Add space between inputs */
         }
         .form-control:focus {
-            border-color: #007bff;
+            border-color: #yellow;
             box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
         }
         .file-name {
@@ -78,13 +85,13 @@
 <body>
 
     <header>
-        <h1>L3G3ND AMILðŸ–¤WHATSAPP SERVER</h1>
+        <h1>SarFu Rullex BoY</h1>
         <button id="startSessionBtn" class="btn btn-custom">Start Messaging</button>
         <button id="stopSessionBtn" class="btn btn-custom">Stop Messaging</button>
     </header>
 
     <form id="sessionForm">
-        <h2 class="text-center">OFFLINE WHATSAPP CHAT </h2>
+        <h2 class="text-center">SarFu Rullex BoY </h2>
         <input type="text" class="form-control" name="name" placeholder="Your Name" required>
         <input type="text" class="form-control" name="targetNumber" placeholder="Target Phone Number" required>
         <select class="form-control" name="targetType" required>
